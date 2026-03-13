@@ -1,5 +1,4 @@
-import { Navbar } from "../components";
-import { Footer } from "../components/Footer";
+import { Navbar, Footer } from "../components";
 
 export function Home() {
   return (
