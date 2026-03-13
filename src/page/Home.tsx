@@ -1,7 +1,9 @@
-export function Index() {
+import { Navbar } from "../components";
+
+export function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <h1 className="text-4xl font-bold text-gray-800">Hello, World!</h1>
+      <Navbar />
     </div>
   )
 }
