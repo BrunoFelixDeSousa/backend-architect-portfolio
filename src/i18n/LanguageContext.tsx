@@ -1,13 +1,5 @@
 import { createContext, useContext } from "react";
-import { type Language, translations } from "./translations";
-
-export type TranslationType = (typeof translations)[Language];
-
-export interface LanguageContextType {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-  t: TranslationType;
-}
+import type { LanguageContextType } from "./types/i18n";
 
 /**
  * Contexto para gerenciar o idioma da aplicação e fornecer as traduções correspondentes.

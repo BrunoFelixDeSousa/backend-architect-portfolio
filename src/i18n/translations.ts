@@ -1,5 +1,3 @@
-export type Language = "en" | "pt" | "es";
-
 export const translations = {
   en: {
     nav: {
@@ -9,6 +7,16 @@ export const translations = {
       philosophy: "Philosophy",
       blog: "Blog",
       contact: "Contact",
+    },
+    hero: {
+      greeting: "Hello, I'm",
+      name: "Bruno Félix",
+      role: "Backend Software Engineer",
+      tagline:
+        "Building scalable systems with Java, clean architecture, and engineering discipline.",
+      cta: "View My Work",
+      terminal: "$ whoami",
+      terminalOutput: "backend-engineer :: java · quarkus · spring-boot",
     },
     footer: {
       built: "Built with engineering discipline",
@@ -24,6 +32,16 @@ export const translations = {
       blog: "Blog",
       contact: "Contato",
     },
+    hero: {
+      greeting: "Olá, eu sou",
+      name: "Bruno Félix",
+      role: "Engenheiro de Software Backend",
+      tagline:
+        "Construindo sistemas escaláveis com Java, arquitetura limpa e disciplina de engenharia.",
+      cta: "Ver Meu Trabalho",
+      terminal: "$ whoami",
+      terminalOutput: "engenheiro-backend :: java · quarkus · spring-boot",
+    },
     footer: {
       built: "Construído com disciplina de engenharia",
       rights: "Todos os direitos reservados.",
@@ -38,12 +56,19 @@ export const translations = {
       blog: "Blog",
       contact: "Contacto",
     },
+    hero: {
+      greeting: "Hola, soy",
+      name: "Bruno Félix",
+      role: "Ingeniero de Software Backend",
+      tagline:
+        "Construyendo sistemas escalables con Java, arquitectura limpia y disciplina de ingeniería.",
+      cta: "Ver Mi Trabajo",
+      terminal: "$ whoami",
+      terminalOutput: "ingeniero-backend :: java · quarkus · spring-boot",
+    },
     footer: {
       built: "Construido con disciplina de ingeniería",
       rights: "Todos los derechos reservados.",
     },
   },
 } as const;
-
-// type para garantir que as traduções sejam do tipo correto, baseado na estrutura definida em `translations` e no tipo `Language`.
-export type Translations = (typeof translations)[Language];

@@ -1,6 +1,7 @@
 import { useState, useMemo, type ReactNode } from "react";
-import { type Language, translations } from "./translations";
+import { translations } from "./translations";
 import { LanguageContext } from "./LanguageContext";
+import type { Language } from "./types/i18n";
 
 /**
  * O provider envolve a aplicação e fornece o estado do idioma e as traduções para todos os componentes filhos.
