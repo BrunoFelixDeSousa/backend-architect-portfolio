@@ -1,10 +1,17 @@
 import './App.css'
+import { BrowserRouter, Route, Routes } from "react-router";
+import { Index } from './page/Home';
+import { NotFound } from './page/NotFound';
+
 
 export function App() {
 
   return (
-      <div className="flex h-screen items-center justify-center">
-        <h1 className="text-4xl font-bold text-gray-800">Hello, World!</h1>
-      </div>
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+      </BrowserRouter>
   )
 }

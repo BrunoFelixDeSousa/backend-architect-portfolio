@@ -8,7 +8,7 @@
     "composite": true, // Habilita a construção incremental
     "baseUrl": ".",    // Define a baseUrl para resolver módulos
     "paths": {
-      "@/*": ["src/*"] // Permite importar arquivos usando @/ como base para a pasta src
+      "@/*": ["./src/*"] // Permite importar arquivos usando @/ como base para a pasta src
     }
   }
 }
