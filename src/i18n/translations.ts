@@ -73,6 +73,28 @@ export const translations = {
         },
       ],
     },
+    philosophy: {
+      title: "Engineering Philosophy",
+      subtitle: "// how I build software",
+      principles: [
+        {
+          title: "Clean Architecture",
+          description: "Business rules at the center, frameworks at the edges. Dependencies always point inward, making systems testable and framework-independent.",
+        },
+        {
+          title: "Test-Driven Confidence",
+          description: "Automated tests are not optional. Unit tests validate logic, integration tests verify contracts, and end-to-end tests confirm behavior.",
+        },
+        {
+          title: "Domain-Driven Design",
+          description: "Software should speak the language of the business. Bounded contexts, aggregates, and value objects create expressive, maintainable models.",
+        },
+        {
+          title: "Scalability by Design",
+          description: "Systems should be designed for growth from day one. Stateless services, event-driven patterns, and cloud-native principles enable horizontal scaling.",
+        },
+      ],
+    },
     footer: {
       built: "Built with engineering discipline",
       rights: "All rights reserved.",
@@ -153,6 +175,28 @@ export const translations = {
         },
       ],
     },
+    philosophy: {
+      title: "Filosofia de Engenharia",
+      subtitle: "// como construo software",
+      principles: [
+        {
+          title: "Arquitetura Limpa",
+          description: "Regras de negócio no centro, frameworks nas bordas. Dependências sempre apontam para dentro, tornando sistemas testáveis e independentes de framework.",
+        },
+        {
+          title: "Confiança em Testes",
+          description: "Testes automatizados não são opcionais. Testes unitários validam lógica, testes de integração verificam contratos, e testes end-to-end confirmam comportamento.",
+        },
+        {
+          title: "Design Orientado a Domínio",
+          description: "Software deve falar a linguagem do negócio. Contextos delimitados, agregados e objetos de valor criam modelos expressivos e manuteníveis.",
+        },
+        {
+          title: "Escalabilidade por Design",
+          description: "Sistemas devem ser projetados para crescimento desde o primeiro dia. Serviços stateless, padrões event-driven e princípios cloud-native permitem escalabilidade horizontal.",
+        },
+      ],
+    },
     footer: {
       built: "Construído com disciplina de engenharia",
       rights: "Todos os direitos reservados.",
@@ -229,6 +273,28 @@ export const translations = {
             "Sistema de notificaciones orientado a eventos soportando email, SMS y push notifications. Construido con NestJS y colas de mensajes para entrega confiable.",
           tech: ["Node.js", "NestJS", "RabbitMQ", "MongoDB", "Docker"],
           architecture: "Event-Driven · Publisher-Subscriber · Basado en Colas",
+        },
+      ],
+    },
+    philosophy: {
+      title: "Filosofía de Ingeniería",
+      subtitle: "// cómo construyo software",
+      principles: [
+        {
+          title: "Arquitectura Limpia",
+          description: "Reglas de negocio en el centro, frameworks en los bordes. Las dependencias siempre apuntan hacia adentro, haciendo los sistemas testeables e independientes del framework.",
+        },
+        {
+          title: "Confianza en Pruebas",
+          description: "Las pruebas automatizadas no son opcionales. Las pruebas unitarias validan lógica, las de integración verifican contratos, y las end-to-end confirman comportamiento.",
+        },
+        {
+          title: "Diseño Orientado al Dominio",
+          description: "El software debe hablar el lenguaje del negocio. Contextos delimitados, agregados y objetos de valor crean modelos expresivos y mantenibles.",
+        },
+        {
+          title: "Escalabilidad por Diseño",
+          description: "Los sistemas deben diseñarse para crecer desde el primer día. Servicios stateless, patrones event-driven y principios cloud-native permiten escalabilidad horizontal.",
         },
       ],
     },
