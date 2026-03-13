@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useLanguage } from "../../i18n/LanguageContext";
-import type { Language } from "../../i18n/translations";
+import type { Language } from "../../i18n/types/i18n";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router";
 import { NavbarDesktop } from "./components/navbarDesktop";

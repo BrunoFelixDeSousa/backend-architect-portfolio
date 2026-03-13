@@ -1,12 +1,12 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router";
-import type { Language } from "../../../i18n/translations";
+import type { Language } from "../../../i18n/types/i18n";
 
 interface NavbarMobileProps {
   mobileOpen: boolean;
   navItems: { key: string; label: string }[];
-  langLabels: Record<string, string>;
-  language: string;
+  langLabels: Record<Language, string>;
+  language: Language;
   setLanguage: (lang: Language) => void;
   setMobileOpen: (open: boolean) => void;
 }
