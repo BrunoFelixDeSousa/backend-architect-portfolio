@@ -95,6 +95,14 @@ export const translations = {
         },
       ],
     },
+    contact: {
+      title: "Get in Touch",
+      subtitle: "// let's build something great",
+      description: "Interested in collaborating on backend systems, discussing software architecture, or just talking about rockets and physics? Let's connect.",
+      email: "Email",
+      github: "GitHub",
+      linkedin: "LinkedIn",
+    },
     footer: {
       built: "Built with engineering discipline",
       rights: "All rights reserved.",
@@ -197,6 +205,14 @@ export const translations = {
         },
       ],
     },
+    contact: {
+      title: "Entre em Contato",
+      subtitle: "// vamos construir algo incrível",
+      description: "Interessado em colaborar em sistemas backend, discutir arquitetura de software, ou apenas conversar sobre foguetes e física? Vamos nos conectar.",
+      email: "Email",
+      github: "GitHub",
+      linkedin: "LinkedIn",
+    },
     footer: {
       built: "Construído com disciplina de engenharia",
       rights: "Todos os direitos reservados.",
@@ -297,6 +313,14 @@ export const translations = {
           description: "Los sistemas deben diseñarse para crecer desde el primer día. Servicios stateless, patrones event-driven y principios cloud-native permiten escalabilidad horizontal.",
         },
       ],
+    },
+    contact: {
+      title: "Contacto",
+      subtitle: "// construyamos algo grandioso",
+      description: "¿Interesado en colaborar en sistemas backend, discutir arquitectura de software, o simplemente hablar sobre cohetes y física? Conectemos.",
+      email: "Email",
+      github: "GitHub",
+      linkedin: "LinkedIn",
     },
     footer: {
       built: "Construido con disciplina de ingeniería",
