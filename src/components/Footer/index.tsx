@@ -10,7 +10,7 @@ export function Footer() {
           {t.footer.built} ⚡
         </p>
         <p className="font-mono text-xs text-muted-foreground">
-          © {new Date().getFullYear()} {t.footer.rights}
+          © {new Date().getFullYear()} {t.hero.name}. {t.footer.rights}
         </p>
       </div>
     </footer>
