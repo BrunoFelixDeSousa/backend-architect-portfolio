@@ -38,6 +38,41 @@ export const translations = {
         infra: "Infrastructure",
       },
     },
+    projects: {
+      title: "Projects",
+      subtitle: "// selected work",
+      viewCode: "View Source",
+      items: [
+        {
+          title: "Order Management System",
+          description:
+            "Microservices-based order management system built with Quarkus, implementing hexagonal architecture and DDD patterns. Features event-driven communication and comprehensive test coverage.",
+          tech: ["Java", "Quarkus", "PostgreSQL", "Kafka", "Docker"],
+          architecture: "Hexagonal Architecture · Event-Driven · CQRS",
+        },
+        {
+          title: "Authentication Service",
+          description:
+            "Scalable authentication and authorization service built with Spring Boot. Implements OAuth2, JWT token management, and role-based access control with clean separation of concerns.",
+          tech: ["Java", "Spring Boot", "Redis", "PostgreSQL", "Docker"],
+          architecture: "Clean Architecture · Domain-Driven Design",
+        },
+        {
+          title: "API Gateway & Service Mesh",
+          description:
+            "Cloud-native API gateway implementing rate limiting, circuit breaker patterns, and service discovery. Built for high availability and horizontal scaling.",
+          tech: ["Java", "Quarkus", "Docker", "Kubernetes", "gRPC"],
+          architecture: "Microservices · Circuit Breaker · Service Discovery",
+        },
+        {
+          title: "Real-time Notification Engine",
+          description:
+            "Event-driven notification system supporting email, SMS, and push notifications. Built with NestJS and message queues for reliable delivery.",
+          tech: ["Node.js", "NestJS", "RabbitMQ", "MongoDB", "Docker"],
+          architecture: "Event-Driven · Publisher-Subscriber · Queue-Based",
+        },
+      ],
+    },
     footer: {
       built: "Built with engineering discipline",
       rights: "All rights reserved.",
@@ -82,6 +117,42 @@ export const translations = {
         infra: "Infraestrutura",
       },
     },
+    projects: {
+      title: "Projetos",
+      subtitle: "// trabalhos selecionados",
+      viewCode: "Ver Código",
+      items: [
+        {
+          title: "Sistema de Gestão de Pedidos",
+          description:
+            "Sistema de gestão de pedidos baseado em microsserviços construído com Quarkus, implementando arquitetura hexagonal e padrões DDD. Possui comunicação orientada a eventos e cobertura abrangente de testes.",
+          tech: ["Java", "Quarkus", "PostgreSQL", "Kafka", "Docker"],
+          architecture: "Arquitetura Hexagonal · Event-Driven · CQRS",
+        },
+        {
+          title: "Serviço de Autenticação",
+          description:
+            "Serviço escalável de autenticação e autorização construído com Spring Boot. Implementa OAuth2, gestão de tokens JWT e controle de acesso baseado em papéis.",
+          tech: ["Java", "Spring Boot", "Redis", "PostgreSQL", "Docker"],
+          architecture: "Clean Architecture · Domain-Driven Design",
+        },
+        {
+          title: "API Gateway & Service Mesh",
+          description:
+            "API gateway cloud-native implementando rate limiting, padrões circuit breaker e service discovery. Construído para alta disponibilidade e escalabilidade horizontal.",
+          tech: ["Java", "Quarkus", "Docker", "Kubernetes", "gRPC"],
+          architecture: "Microsserviços · Circuit Breaker · Service Discovery",
+        },
+        {
+          title: "Motor de Notificações em Tempo Real",
+          description:
+            "Sistema de notificações orientado a eventos suportando email, SMS e push notifications. Construído com NestJS e filas de mensagens para entrega confiável.",
+          tech: ["Node.js", "NestJS", "RabbitMQ", "MongoDB", "Docker"],
+          architecture:
+            "Event-Driven · Publisher-Subscriber · Baseado em Filas",
+        },
+      ],
+    },
     footer: {
       built: "Construído com disciplina de engenharia",
       rights: "Todos os direitos reservados.",
@@ -125,6 +196,41 @@ export const translations = {
         practices: "Prácticas de Ingeniería",
         infra: "Infraestructura",
       },
+    },
+    projects: {
+      title: "Proyectos",
+      subtitle: "// trabajos seleccionados",
+      viewCode: "Ver Código",
+      items: [
+        {
+          title: "Sistema de Gestión de Pedidos",
+          description:
+            "Sistema de gestión de pedidos basado en microservicios construido con Quarkus, implementando arquitectura hexagonal y patrones DDD. Presenta comunicación orientada a eventos y cobertura completa de pruebas.",
+          tech: ["Java", "Quarkus", "PostgreSQL", "Kafka", "Docker"],
+          architecture: "Arquitectura Hexagonal · Event-Driven · CQRS",
+        },
+        {
+          title: "Servicio de Autenticación",
+          description:
+            "Servicio escalable de autenticación y autorización construido con Spring Boot. Implementa OAuth2, gestión de tokens JWT y control de acceso basado en roles.",
+          tech: ["Java", "Spring Boot", "Redis", "PostgreSQL", "Docker"],
+          architecture: "Clean Architecture · Domain-Driven Design",
+        },
+        {
+          title: "API Gateway & Service Mesh",
+          description:
+            "API gateway cloud-native implementando rate limiting, patrones circuit breaker y service discovery. Construido para alta disponibilidad y escalabilidad horizontal.",
+          tech: ["Java", "Quarkus", "Docker", "Kubernetes", "gRPC"],
+          architecture: "Microservicios · Circuit Breaker · Service Discovery",
+        },
+        {
+          title: "Motor de Notificaciones en Tiempo Real",
+          description:
+            "Sistema de notificaciones orientado a eventos soportando email, SMS y push notifications. Construido con NestJS y colas de mensajes para entrega confiable.",
+          tech: ["Node.js", "NestJS", "RabbitMQ", "MongoDB", "Docker"],
+          architecture: "Event-Driven · Publisher-Subscriber · Basado en Colas",
+        },
+      ],
     },
     footer: {
       built: "Construido con disciplina de ingeniería",

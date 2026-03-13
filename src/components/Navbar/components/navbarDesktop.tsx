@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import type { Language } from "../../../i18n/types/i18n";
 
 interface NavbarDesktopProps {
@@ -17,13 +16,13 @@ export function NavbarDesktop({
   return (
     <div className="hidden md:flex items-center gap-6">
       {navItems.map((item) => (
-        <Link
+        <a
           key={item.key}
-          to={`#${item.key}`}
+          href={`#${item.key}`}
           className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors"
         >
           {item.label}
-        </Link>
+        </a>
       ))}
       <div className="flex items-center gap-1 ml-4 border border-border rounded-md overflow-hidden">
         {(Object.keys(langLabels) as Language[]).map((lang) => (
