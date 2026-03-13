@@ -3,7 +3,7 @@ import { useLanguage } from "../../i18n/LanguageContext";
 
 const skillsData = {
   backend: ["Java", "Quarkus", "Spring Boot", "REST APIs", "Microservices", "Hexagonal Architecture", "DDD"],
-  node: ["Node.js", "NestJS, Express, Fastify"],
+  node: ["Node.js", "NestJS", "Express", "Fastify"],
   frontend: ["React", "Next.js"],
   practices: ["Clean Architecture", "DDD", "SOLID", "Automated Testing", "Integration Testing", "Observability"],
   infra: ["Docker", "CI/CD", "Cloud-Native"],
