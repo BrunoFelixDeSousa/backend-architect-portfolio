@@ -27,6 +27,17 @@ export const translations = {
       interests:
         "Science · Rockets · Mathematics · Physics · Anime · Movies · Technology",
     },
+    skills: {
+      title: "Tech Stack",
+      subtitle: "// technologies & practices",
+      categories: {
+        backend: "Backend Engineering",
+        node: "Node Ecosystem",
+        frontend: "Frontend",
+        practices: "Engineering Practices",
+        infra: "Infrastructure",
+      },
+    },
     footer: {
       built: "Built with engineering discipline",
       rights: "All rights reserved.",
@@ -60,6 +71,17 @@ export const translations = {
       interests:
         "Ciência · Foguetes · Matemática · Física · Anime · Filmes · Tecnologia",
     },
+    skills: {
+      title: "Stack Técnica",
+      subtitle: "// tecnologias e práticas",
+      categories: {
+        backend: "Engenharia Backend",
+        node: "Ecossistema Node",
+        frontend: "Frontend",
+        practices: "Práticas de Engenharia",
+        infra: "Infraestrutura",
+      },
+    },
     footer: {
       built: "Construído com disciplina de engenharia",
       rights: "Todos os direitos reservados.",
@@ -92,6 +114,17 @@ export const translations = {
       p3: "También exploro el ecosistema Node.js con NestJS y tengo conocimiento fundamental de React y Next.js. Mi objetivo es convertirme en especialista en Java y Quarkus, creando sistemas que sean mantenibles, testeables y diseñados para escalar.",
       interests:
         "Ciencia · Cohetes · Matemáticas · Física · Anime · Películas · Tecnología",
+    },
+    skills: {
+      title: "Stack Técnico",
+      subtitle: "// tecnologías y prácticas",
+      categories: {
+        backend: "Ingeniería Backend",
+        node: "Ecosistema Node",
+        frontend: "Frontend",
+        practices: "Prácticas de Ingeniería",
+        infra: "Infraestructura",
+      },
     },
     footer: {
       built: "Construido con disciplina de ingeniería",

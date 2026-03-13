@@ -1,4 +1,4 @@
-import { Navbar, Footer, HeroSection, AboutSection } from "../components";
+import { Navbar, Footer, HeroSection, AboutSection, SkillsSection } from "../components";
 
 export function Home() {
   return (
@@ -6,6 +6,7 @@ export function Home() {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
       <Footer />
     </div>
   )
