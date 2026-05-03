@@ -44,4 +44,18 @@ Acesse o site pelo endereço exibido no terminal (normalmente `http://localhost:
 - O projeto é uma boa base para portfólio pessoal e pode ser adaptado com seus próprios conteúdos e links.
 - O diretório `public/aplication-demo` contém as imagens usadas no README.
 
-![Tela do projeto](./public/aplication-demo/mobile.png)
+## Dockerização
+
+Para criar a imagem Docker do projeto, use:
+
+```bash
+docker build -t backend-architect-portfolio .
+```
+
+Para rodar o container:
+
+```bash
+docker run -p 4173:4173 backend-architect-portfolio
+```
+
+O site ficará disponível em `http://localhost:4173`.
